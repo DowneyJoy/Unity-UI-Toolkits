@@ -1,0 +1,28 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIToolkits/Demo1/login.uss?fileID=7433441132597879392&amp;guid=3e3b4606e5bc25346906b32142554367&amp;type=3#login" />
+    <ui:VisualElement name="body" class="html-tag-body" style="flex-direction: row; align-content: stretch;">
+        <ui:VisualElement name="auto-1" class="login-card html-tag-div" style="align-content: stretch;">
+            <ui:Label name="auto-2" text="欢迎回来" class="html-tag-h2" style="align-content: stretch;" />
+            <ui:VisualElement name="auto-3" class="html-tag-form" style="align-content: stretch;">
+                <ui:VisualElement name="auto-4" class="input-group html-tag-div" style="align-content: stretch;">
+                    <ui:Label name="auto-5" text="用户名" class="html-tag-label" style="align-content: stretch;" />
+                    <ui:TextField name="username" placeholder-text="请输入用户名" class="html-tag-input" style="background-color: rgb(255, 255, 255); align-content: stretch;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="auto-6" class="input-group html-tag-div" style="align-content: stretch;">
+                    <ui:Label name="auto-7" text="密码" class="html-tag-label" style="align-content: stretch;" />
+                    <ui:TextField name="password" placeholder-text="请输入密码" class="html-tag-input" style="background-color: rgb(255, 255, 255); align-content: stretch;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="auto-8" class="remember-group html-tag-div" style="flex-direction: row; align-content: stretch;">
+                    <ui:Toggle name="remember" value="false" class="html-tag-input" style="color: rgb(0, 0, 0); font-size: 13.3333px; align-content: stretch;" />
+                    <ui:Label name="auto-9" text="记住我" class="html-tag-label" style="align-content: stretch;" />
+                </ui:VisualElement>
+                <ui:Button name="auto-10" text="登 录" class="login-btn html-tag-button" style="-unity-text-align: middle-center; align-content: stretch;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="auto-11" class="extra-links html-tag-div" style="align-content: stretch; flex-direction: row; align-items: auto; justify-content: center;">
+                <ui:Label name="auto-12" text="忘记密码？" class="html-tag-a" style="align-content: stretch;" />
+                <ui:Label name="auto-13" text="|" class="html-tag-span" style="align-content: stretch;" />
+                <ui:Label name="auto-14" text="注册新账号" class="html-tag-a" style="align-content: stretch;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
